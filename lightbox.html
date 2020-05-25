@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+   
+    <title>Lightbox</title>
+  <meta name="Sophia Bashey" content="Sophia Bashey">
+  <meta name="" content="">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/starter.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">    
+      
+  </head>
+  
+
+  <body>
+      
+      <nav class="flex-container" aria-labelledby="primary-navigation">
+        <h1 class="logo"><a href="index.html">Logo</a></h1>
+        <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="health.html">Homebody Hobbies</a></li>
+            <li><a href="san.html">Sanitation Nation</a></li>
+        </ul>
+    </nav>  
+      
+  <div class="photo-grid">
+   <!-- note the url on these images. They are placeholder image sites you can use.-->
+   <!-- always you alt tags on all images -->
+   <div class="item"><a href="img/lightbox/400W-moon.jpg" data-fancybox="images" data-caption="Moon">
+       <img src="img/lightbox/400W-moon.jpg" alt="400px moon"/></a></div>
+      
+   <div class="item"><a href="img/lightbox/400W-flower-house.jpg" data-fancybox="images" data-caption="House filled with flowers.">
+       <img src="img/lightbox/400W-flower-house.jpg" alt="400px flower house"/></a></div>
+      
+   <div class="item"><a href="img/lightbox/400W-floatie-drinks.jpg" data-fancybox="images" data-caption="Pool Floaties filled with drinks.">
+       <img src="img/lightbox/400W-floatie-drinks.jpg" alt="400px drinks in floaties"/></a></div>
+      
+   <div class="item"><a href="img/lightbox/400W-water-cave.jpg" data-fancybox="images" data-caption="Underwater cave.">
+       <img src="img/lightbox/400W-water-cave.jpg" alt="400px water cave opening"/></a></div>
+      
+   <div class="item"><a href="img/lightbox/400W-purple-lightening.jpg" data-fancybox="images" data-caption="Lightning against a deep purple sky.">
+       <img src="img/lightbox/400W-purple-lightening.jpg" alt="400px lightning against purple sky"></a></div>
+      <!--
+   <div class="item-wide"><img src="http://placekitten.com/500/500" alt="a kitten"></div>
+   <div class="item"><img src="https://placebear.com/500/500" alt="a bear"></div>
+   <div class="item-big"><img src="https://placebear.com/500/500" alt="a bear"></div>
+   <div class="item"><img src="http://placekitten.com/500/500" alt="a kitten"></div>
+   <div class="item"><img src="https://placebear.com/500/500" alt="a bear"></div>
+   <div class="item-tall"><img src="https://placebear.com/500/500" alt="a bear"></div>
+   <div class="item"><img src="http://placekitten.com/500/500" alt="a random photo"></div> -->
+ </div>
+
+<!-- JS -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>      
+      
+  </body>
+
+</html>
+ 
+ 
+
+ <!-- san.html code
+<nav class="flex-container" aria-labelledby="primary-navigation">
+        <h1 class="logo"><a href="index.html">Logo</a></h1>
+        <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="health.html">Homebody Hobbies</a></li>
+        </ul>
+    </nav>
+      
+      <section class="columns">
+  <img class="image one" src="https://images.unsplash.com/photo-1588611956953-ca72da6d4ba2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80">
+  <article class="text one">
+    <h1>The One Time Long-Distance Relationships Work</h1>
+    <p>"Social Distancing" is one of the best ways to mimimize your risk for contracting or spreading corona virus.</p>
+    <p> This entails reducing your exposure to anyone outside of your household, staying 6 feet away from everyone you encounter, and visiting our Homebody Hobbies page since you aren't socializing anymore.</p>
+  </article>
+
+  <img class="image two" src="https://images.unsplash.com/photo-1563453392212-326f5e854473?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" alt="spray bottle cleaner.">
+  <article class="text two">
+    <h1>Do Your Chores— Actually.</h1>
+    <p>Clean and disinfect high-touch surfaces daily in household common areas (e.g. tables, hard-backed chairs, doorknobs, light switches, phones, tablets, touch screens, remote controls, keyboards, handles, desks, toilets, sinks).</p>
+    <p>It's also a good idea to carry hand sanitizer with you whenever you leave the house to ensure your hands are clean before touching your face.</p>
+  </article>
+
+  <img class="image three" src="https://images.unsplash.com/photo-1585435421671-0c16764628ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2436&q=80">
+  <article class="text three">
+    <h1>Don't make me (m)ask you again...</h1>
+    <p>Wear it! Corona viruses are spread through droplets created when you cough, sneeze, and even talk. Even if you don't have any visible symptoms, you could still be carrying the virus and risking spreading it to others. Wearing a mask that snuggly covers your nose and mouth helps reduce these types of transmissions.</p>
+  </article>
+</section>
+ -->
